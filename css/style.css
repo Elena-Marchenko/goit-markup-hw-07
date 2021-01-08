@@ -193,7 +193,7 @@ header .address {
 
 /* ========= Hero ========= */
 
-.hero-heading {
+.hero__heading {
   margin-bottom: 30px;
 
   font-family: 'Roboto', sans-serif;
@@ -205,7 +205,7 @@ header .address {
   text-transform: uppercase;
 }
 
-.hero-button {
+.hero__button {
   padding-top: 10px;
   padding-left: 32px;
   padding-right: 32px;
@@ -224,7 +224,7 @@ header .address {
   color: #ffffff;
 }
 
-.hero-button:focus {
+.hero__button:focus {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
@@ -290,19 +290,19 @@ header .address {
   border-radius: 4px;
 }
 
-.modal-icon {
+.modal__icon {
   width: 11px;
   height: 11px;
 
   fill: #000000;
 }
 
-.modal-icon:hover,
-.modal-icon:focus {
+.modal__icon:hover,
+.modal__icon:focus {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-.modal-button {
+.modal__button {
   position: absolute;
   top: 8px;
   right: 8px;
