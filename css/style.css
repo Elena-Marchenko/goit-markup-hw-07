@@ -333,7 +333,7 @@ header .address {
 
 /* Форма */
 
-.modal-heading {
+.modal-form__heading {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -345,12 +345,12 @@ header .address {
   margin-bottom: 12px;
 }
 
-.modal-form {
+.modal-form__form {
   display: flex;
   flex-direction: column;
 }
 
-.form-field {
+.modal-form__field {
   position: relative;
   margin-bottom: 20px;
 }
@@ -359,7 +359,7 @@ textarea {
   resize: none;
 }
 
-.modal-form-input {
+.modal-form__input {
   border: 1px solid rgba(33, 33, 33, 0.2);
   box-sizing: border-box;
   border-radius: 4px;
@@ -376,7 +376,7 @@ textarea {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icon-form {
+.modal-form__icon {
   position: absolute;
   bottom: 11px;
   left: 12px;
@@ -393,7 +393,7 @@ textarea {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-form-message {
+.modal-form__message {
   border: 1px solid rgba(33, 33, 33, 0.2);
   box-sizing: border-box;
   border-radius: 4px;
@@ -409,7 +409,7 @@ textarea {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-policy-text {
+.modal-form__policy-text {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -425,13 +425,13 @@ textarea {
   color: #757575;
 }
 
-.modal-policy-link {
+.modal-form__policy-link {
   text-decoration-line: underline;
   color: #2196f3;
   text-decoration-skip-ink: none;
 }
 
-.modal-policy-text::before {
+.modal-form__policy-text::before {
   content: '';
   width: 16px;
   height: 15px;
@@ -439,7 +439,7 @@ textarea {
   margin-right: 8px;
 }
 
-.modal-form-button {
+.modal-form__button {
   display: block;
   width: 200px;
   padding: 10px 55px 10px 56px;
@@ -459,7 +459,7 @@ textarea {
   color: #ffffff;
 }
 
-.modal-policy:checked + .modal-policy-text::before {
+.modal-form__policy:checked + .modal-form__policy-text::before {
   background-color: #2196f3;
   background-image: url('../image/checkbox-white.svg');
   background-size: 16px 15px;
@@ -469,20 +469,20 @@ textarea {
   cursor: pointer;
 }
 
-.modal-form-message:hover,
-.modal-form-message:focus {
+.modal-form__message:hover,
+.modal-form__message:focus {
   border: 1px solid #2196f3;
   outline: #2196f3;
 }
 
-.modal-form-input:hover,
-.modal-form-input:focus {
+.modal-form__input:hover,
+.modal-form__input:focus {
   border: 1px solid #2196f3;
   outline: #2196f3;
 }
 
-.modal-form-input:hover ~ .icon-form,
-.modal-form-input:focus ~ .icon-form {
+.modal-form__input:hover ~ .modal-form__icon,
+.modal-form__input:focus ~ .modal-form__icon {
   fill: #2196f3;
 }
 
