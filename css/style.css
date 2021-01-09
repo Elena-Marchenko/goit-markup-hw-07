@@ -562,11 +562,11 @@ textarea {
   margin-bottom: 50px;
 }
 
-.example-photo {
+.example {
   display: flex;
 }
 
-.photo-list:not(:last-child) {
+.example__photo:not(:last-child) {
   margin-right: 30px;
 }
 
@@ -574,11 +574,11 @@ textarea {
   margin-bottom: 94px;
 }
 
-.photo-list {
+.example__photo {
   position: relative;
 }
 
-.photo-list-text {
+.example__text {
   position: absolute;
   bottom: 0;
 
@@ -598,8 +598,8 @@ textarea {
 
 /* ========= team ========= */
 
-.team-name,
-.team-position {
+.team__name,
+.team__position {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -607,7 +607,7 @@ textarea {
   letter-spacing: 0.03em;
 }
 
-.team-position {
+.team__position {
   color: #757575;
   margin-bottom: 16px;
 }
@@ -616,22 +616,22 @@ textarea {
   text-align: center;
 }
 
-.section-team-list {
+.team {
   display: flex;
   flex-wrap: wrap;
 }
 
-.team-photo {
+.team__photo {
   margin-bottom: 30px;
   width: 270px;
   height: 260px;
 }
 
-.team-name {
+.team__name {
   margin-bottom: 10px;
 }
 
-.team-cards {
+.team__cards {
   padding-bottom: 30px;
   min-width: 270px;
   margin-left: 30px;
@@ -642,7 +642,7 @@ textarea {
   border-radius: 0px 0px 4px 4px;
 }
 
-.team-cards:nth-child(4n + 1) {
+.team__cards:nth-child(4n + 1) {
   margin-left: 0px;
 }
 
@@ -665,11 +665,11 @@ textarea {
   margin-left: 32px;
 }
 
-.social-list-item:not(:last-child) {
+.social-list__item:not(:last-child) {
   margin-right: 10px;
 }
 
-.social-list-link {
+.social-list__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -683,19 +683,19 @@ textarea {
   border-radius: 50%;
 }
 
-.social-list-icon {
+.social-list__icon {
   width: 20px;
   height: 20px;
   fill: #afb1b8;
 }
 
-.social-list-link:hover .social-list-icon,
-.social-list-link:focus .social-list-icon {
+.social-list__link:hover .social-list__icon,
+.social-list__link:focus .social-list__icon {
   fill: #ffffff;
 }
 
-.social-list-link:hover,
-.social-list-link:focus {
+.social-list__link:hover,
+.social-list__link:focus {
   background-color: #2196f3;
 }
 
