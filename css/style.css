@@ -355,7 +355,7 @@ header .address {
   margin-bottom: 20px;
 }
 
-textarea {
+.modal-form__message {
   resize: none;
 }
 
@@ -701,11 +701,11 @@ textarea {
 
 /* ========= Clients ========= */
 
-.clients {
+.section-clients {
   margin-bottom: 94px;
 }
 
-.clients-headlines {
+.section-clients__headlines {
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
   font-size: 36px;
@@ -715,16 +715,16 @@ textarea {
   margin-bottom: 50px;
 }
 
-.clients-list {
+.clients {
   display: flex;
   justify-content: space-between;
 }
 
-.clients-list-item:not(:last-child) {
+.clients__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.clients-list-link {
+.clients__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -739,32 +739,32 @@ textarea {
   border-radius: 4px;
 }
 
-.clients-list-yago {
+.clients__yago {
   width: 44.27px;
   height: 49.23px;
 }
 
-.clients-list-tagline {
+.clients__tagline {
   width: 40px;
   height: 52px;
 }
 
-.clients-list-company {
+.clients__company {
   width: 41px;
   height: 42.6px;
 }
 
-.clients-list-foster {
+.clients__foster {
   width: 79.66px;
   height: 42.02px;
 }
 
-.clients-list-brand {
+.clients__brand {
   width: 59px;
   height: 47px;
 }
 
-.clients-list-line {
+.clients__line {
   width: 88.48px;
   height: 45.44px;
 }
@@ -778,20 +778,20 @@ textarea {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.clients-list-link:hover .symbol,
-.clients-list-link:focus .symbol {
+.clients__link:hover .symbol,
+.clients__link:focus .symbol {
   fill: #2196f3;
 }
 
-.clients-list-link:hover,
-.clients-list-link:focus {
+.clients__link:hover,
+.clients__link:focus {
   border: 1px solid #2196f3;
 }
 
 /* ========= Footer ========= */
 
-.footer-address,
-.footer-contacts {
+.footer-contact,
+.footer-contact__contacts {
   font-family: 'Roboto', sans-serif;
   font-weight: normal;
   font-size: 14px;
@@ -799,7 +799,7 @@ textarea {
   letter-spacing: 0.03em;
 }
 
-.footer-address {
+.footer-contact {
   font-style: normal;
   min-width: 231px;
   text-align: left;
@@ -811,34 +811,34 @@ textarea {
   padding-bottom: 60px;
 }
 
-.contact-address {
+.footer-contact__address {
   color: #ffffff;
   margin-bottom: 9px;
 }
 
-.footer-contacts {
+.footer-contact__contacts {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-link {
+.footer-contact__link {
   margin-bottom: 9px;
 }
 
-.footer-box > .logo {
+.footer__box > .logo {
   color: #fff;
 }
 
-.footer-box {
+.footer__box {
   margin-right: 70px;
 }
 
-.footer-box > .logo {
+.footer__box > .logo {
   display: inline-block;
 
   margin-bottom: 20px;
 }
 
-.section-footer {
+.footer__section {
   display: flex;
   justify-content: flex-start;
   align-items: baseline;
@@ -860,7 +860,7 @@ textarea {
   color: #ffffff;
 }
 
-.footer-social .social-list-icon {
+.footer-social .social-list__icon {
   fill: #ffffff;
 }
 
@@ -875,7 +875,7 @@ textarea {
 
 /* ========= Подписка ========= */
 
-.sub-mail {
+.box-sub__mail {
   width: 358px;
   height: 50px;
 
@@ -916,7 +916,7 @@ textarea {
   align-items: center;
 }
 
-.icon-send {
+.button-sub__icon {
   margin-left: 12px;
   width: 24px;
   height: 24px;
