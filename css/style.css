@@ -488,7 +488,7 @@ textarea {
 
 /* ========= features ========= */
 
-.section-headlines {
+.features__headlines {
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
   font-size: 14px;
@@ -497,7 +497,7 @@ textarea {
   text-transform: uppercase;
 }
 
-.section-text {
+.features__text {
   font-family: 'Roboto', sans-serif;
   font-weight: normal;
   font-size: 14px;
@@ -506,28 +506,28 @@ textarea {
   color: #757575;
 }
 
-.section-features-cards {
+.features__list {
   display: flex;
   align-items: flex-start;
 }
 
-.features-cards:not(:last-child) {
+.features__cards:not(:last-child) {
   margin-right: 30px;
 }
 
-.features-cards {
+.features__cards {
   min-width: 270px;
 }
 
-.section-headlines {
+.features__headlines {
   margin-bottom: 10px;
 }
 
-.section-features {
+.features {
   margin-bottom: 94px;
 }
 
-.box-icon {
+.features__box {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -540,7 +540,7 @@ textarea {
   border-radius: 4px;
 }
 
-.icon-features {
+.features__icon {
   display: block;
   width: 70px;
   height: 70px;
