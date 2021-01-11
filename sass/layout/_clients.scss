@@ -1,0 +1,86 @@
+.section-clients {
+  margin-bottom: 94px;
+}
+
+.section-clients__headlines {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+}
+
+.clients {
+  display: flex;
+  justify-content: space-between;
+}
+
+.clients__item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.clients__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition-property: border;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  width: 170px;
+  height: 90px;
+
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+
+.clients__yago {
+  width: 44.27px;
+  height: 49.23px;
+}
+
+.clients__tagline {
+  width: 40px;
+  height: 52px;
+}
+
+.clients__company {
+  width: 41px;
+  height: 42.6px;
+}
+
+.clients__foster {
+  width: 79.66px;
+  height: 42.02px;
+}
+
+.clients__brand {
+  width: 59px;
+  height: 47px;
+}
+
+.clients__line {
+  width: 88.48px;
+  height: 45.44px;
+}
+
+.symbol {
+  fill: #afb1b8;
+  display: block;
+
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.clients__link:hover .symbol,
+.clients__link:focus .symbol {
+  fill: #2196f3;
+}
+
+.clients__link:hover,
+.clients__link:focus {
+  border: 1px solid #2196f3;
+}
