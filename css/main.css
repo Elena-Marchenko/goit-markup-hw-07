@@ -70,10 +70,8 @@ img {
   border-radius: 50%;
 }
 
-.social-list__icon {
-  width: 20px;
-  height: 20px;
-  fill: #afb1b8;
+.social-list__link:hover, .social-list__link:focus {
+  background-color: #2196f3;
 }
 
 .social-list__link:hover .social-list__icon,
@@ -81,21 +79,10 @@ img {
   fill: #ffffff;
 }
 
-.social-list__link:hover,
-.social-list__link:focus {
-  background-color: #2196f3;
-}
-
-.header {
-  border-bottom: 1px solid #ececec;
-  background: #ffffff;
-  padding-top: 24px;
-  padding-bottom: 25px;
-}
-
-.header .container {
-  display: flex;
-  align-items: center;
+.social-list__icon {
+  width: 20px;
+  height: 20px;
+  fill: #afb1b8;
 }
 
 .logo {
@@ -111,32 +98,35 @@ img {
   color: #2196f3;
 }
 
+.header {
+  border-bottom: 1px solid #ececec;
+  background: #ffffff;
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+}
+
+.header .address {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
 .navigation {
   display: flex;
   margin-left: 93px;
 }
 
-.navigation__item:not(:last-child) {
-  margin-right: 50px;
-}
-
-.navigation__link,
-.address__link {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.15;
-  letter-spacing: 0.02em;
-  color: #212121;
-}
-
-.navigation__link:hover,
-.navigation__link:focus {
-  color: #2196f3;
-}
-
 .navigation .navigation__link.current {
   color: #2196f3;
+}
+
+.navigation__item:not(:last-child) {
+  margin-right: 50px;
 }
 
 .navigation__link {
@@ -157,6 +147,10 @@ img {
   border-radius: 2px;
 }
 
+.navigation__link:hover, .navigation__link:focus {
+  color: #2196f3;
+}
+
 .address__link {
   display: flex;
   justify-content: center;
@@ -170,13 +164,12 @@ img {
   min-width: 161px;
 }
 
-.address__link:hover,
-.address__link:focus {
+.address__link:hover, .address__link:focus {
   color: #2196f3;
 }
 
-.address__link:hover .address__mail,
-.contacts__link:focus .address__mail {
+.address__link:hover .contacts__tel,
+.address__link:focus .contacts__tel {
   fill: #2196f3;
 }
 
@@ -187,6 +180,11 @@ img {
   margin-right: 10px;
 }
 
+.address__link:hover .address__mail,
+.contacts__link:focus .address__mail {
+  fill: #2196f3;
+}
+
 .address__tel {
   width: 10px;
   height: 16px;
@@ -194,15 +192,9 @@ img {
   margin-right: 10px;
 }
 
-.address__link:hover .contacts__tel,
-.address__link:focus .contacts__tel {
+.address__link:hover .address__tel,
+.contacts__link:focus .address__tel {
   fill: #2196f3;
-}
-
-header .address {
-  display: flex;
-  align-items: center;
-  margin-left: auto;
 }
 
 .address__contacts:not(:last-child) {
@@ -211,6 +203,12 @@ header .address {
 
 .navigation__link,
 .address__link {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: 0.02em;
+  color: #212121;
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
