@@ -142,6 +142,7 @@ img {
 
 .navigation__link {
   position: relative;
+  color: var(--color-main);
   padding-top: 32px;
   padding-bottom: 32px;
 }
@@ -219,7 +220,6 @@ img {
   font-size: 14px;
   line-height: 1.15;
   letter-spacing: 0.02em;
-  color: var(--color-main);
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
