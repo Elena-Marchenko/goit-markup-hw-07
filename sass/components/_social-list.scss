@@ -22,7 +22,7 @@
 
   &:hover .social-list__icon,
   &:focus .social-list__icon {
-    fill: #ffffff;
+    fill: var(--color-white);
   }
 }
 

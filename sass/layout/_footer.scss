@@ -19,7 +19,7 @@
   }
 
   &__address {
-    color: #ffffff;
+    color: var(--color-white);
     margin-bottom: 9px;
   }
 
@@ -39,7 +39,7 @@
     display: inline-block;
 
     margin-bottom: 20px;
-    color: #fff;
+    color: var(--color-white);
   }
 }
 
@@ -62,7 +62,7 @@
   line-height: 1.15;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--color-white);
 }
 
 .footer-list {
@@ -74,7 +74,7 @@
   margin-right: 93px;
 
   & .social-list__icon {
-    fill: #ffffff;
+    fill: var(--color-white);
   }
 }
 
@@ -118,12 +118,12 @@
   font-size: 16px;
   line-height: 1.8;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: var(--color-white);
 
   &__icon {
     margin-left: 12px;
     width: 24px;
     height: 24px;
-    fill: #ffffff;
+    fill: var(--color-white);
   }
 }
